@@ -8,8 +8,8 @@ async function getChefBirthday(id) {
 
 (async () => {
     try {
-        const ricetta = await getChefBirthday(1)
-        console.log(ricetta);
+        const nascita = await getChefBirthday(1)
+        console.log(nascita);
     } catch (error) {
         console.error(error)
     } finally {
