@@ -45,7 +45,7 @@ async function getChefBirthday(id) {
 
     }
 
-    return chef.birthDate
+    return dayjs(chef.birthDate).format("DD/MM/YYYY")
 }
 
 (async () => {
